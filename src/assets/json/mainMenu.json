@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Perfil",
+    "icon": "fa-user",
+    "color": "Text-gray-400"
+  },
+  {
+    "title": "Configuraciones",
+    "icon": "fa-cogs",
+    "color": "Text-gray-400"
+  },
+  {
+    "title": "Registro de Actividad",
+    "icon": "fa-list",
+    "color": "Text-gray-400"
+  },
+  {
+    "title": "Cerrar Sesión",
+    "icon": "fa-sign-out-alt",
+    "color": "Text-gray-400"
+  },
+  {
+    "title": "Cerrar Sesión 2",
+    "icon": "fa-sign-out-alt",
+    "color": "Text-gray-400"
+  },
+  {
+    "title": "Cerrar Sesión 3",
+    "icon": "fa-sign-out-alt",
+    "color": "Text-gray-400"
+  }
+]
