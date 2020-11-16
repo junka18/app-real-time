@@ -4,14 +4,17 @@ import { BotonesComponent } from './botones/botones.component';
 import { BusquedaComponent } from './busqueda/busqueda.component';
 import { CancelacionComponent } from './cancelacion/cancelacion.component';
 import { ComponentesComponent } from './componentes.component';
+import { PaisesComponent } from './paises/paises.component';
 import { TarjetasComponent } from './tarjetas/tarjetas.component';
-
+import { PaisDetailComponent } from './pais-detail/pais-detail.component';
 
 const routes: Routes  = [
     {
     path: '',
     component: ComponentesComponent,
     children: [
+        {path: 'paises',component:PaisesComponent},
+        { path: 'pais-detail/:codigo', component: PaisDetailComponent },
         {path:'buttons',component: BotonesComponent},
         {path:'cards',component: TarjetasComponent },
         {path: 'busqueda',component: BusquedaComponent },
